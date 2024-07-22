@@ -1,16 +1,29 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="navbar">
       <div className="navbar-left eng-title">Welcome Life</div>
       <div className="navbar-right heb-title">
-        <NavLink to="/" className="navbar-link heb-text">
-          דף הבית
-        </NavLink>
-        <NavLink to="/gallery" className="navbar-link heb-text">
-          גלריה
-        </NavLink>
+        <div className={`navbar-links-container ${isOpen ? "open" : ""}`}>
+          <NavLink to="/" className="navbar-link heb-text" onClick={toggleNav}>
+            דף הבית
+          </NavLink>
+          <NavLink to="/gallery" className="navbar-link heb-text" onClick={toggleNav}>
+            גלריה
+          </NavLink>
+        </div>
+        <div className="hamburger-btn-container" onClick={toggleNav}>
+          <div className={`hamburger-middle-line ${isOpen ? "active" : ""}`}></div>
+          <div className={`hamburger-btn ${isOpen ? "active" : ""}`}></div>
+        </div>
       </div>
     </header>
   );
