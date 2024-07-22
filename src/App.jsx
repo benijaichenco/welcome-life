@@ -17,8 +17,8 @@ function App() {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/gallery" element={<Gallery prop1={allPictures} />} />
+          <Route path="/welcome-life" exact element={<Home />} />
+          <Route path="/welcome-life/gallery" exact element={<Gallery prop1={allPictures} />} />
         </Routes>
       </main>
       <Footer />
