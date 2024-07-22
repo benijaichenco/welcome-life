@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <main>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery prop1={allPictures} />} />
         </Routes>
       </main>
