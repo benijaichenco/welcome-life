@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Welcome Life</title>
+    <script type="text/javascript">
+      (function () {
+        let path = window.location.search.match(/^\?(.*)$/);
+        if (path) {
+          window.history.replaceState({}, "", path[1]);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
