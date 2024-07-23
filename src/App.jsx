@@ -4,21 +4,15 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
-import Picture1 from "./images/gallery1.jpeg";
-import Picture2 from "./images/gallery2.jpeg";
-import Picture3 from "./images/gallery3.jpeg";
-import Picture4 from "./images/gallery4.jpeg";
-import Picture5 from "./images/gallery5.jpeg";
 
 function App() {
-  const allPictures = [Picture1, Picture2, Picture3, Picture4, Picture5];
   return (
     <Router basename="/welcome-life">
       <Navbar />
       <main>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/gallery" element={<Gallery prop1={allPictures} />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
       <Footer />
