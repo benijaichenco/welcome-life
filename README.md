@@ -1,2 +1,4 @@
 # welcome-life
-Welcome Life exhibition landing page
+'Welcome Life' Exhibition landing page.
+
+Live preview: https://benijaichenco.github.io/welcome-life
