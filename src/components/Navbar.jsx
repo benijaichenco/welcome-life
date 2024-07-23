@@ -13,15 +13,10 @@ function Navbar() {
       <div className="navbar-left eng-title">Welcome Life</div>
       <div className="navbar-right heb-title">
         <div className={`navbar-links-container ${isOpen ? "open" : ""}`}>
-          <NavLink to="/welcome-life/" end className="navbar-link heb-text" onClick={toggleNav}>
+          <NavLink to="/" end className="navbar-link heb-text" onClick={toggleNav}>
             דף הבית
           </NavLink>
-          <NavLink
-            to="/welcome-life/gallery/"
-            end
-            className="navbar-link heb-text"
-            onClick={toggleNav}
-          >
+          <NavLink to="/gallery" className="navbar-link heb-text" onClick={toggleNav}>
             גלריה
           </NavLink>
         </div>

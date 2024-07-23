@@ -13,12 +13,12 @@ import Picture5 from "./images/gallery5.jpeg";
 function App() {
   const allPictures = [Picture1, Picture2, Picture3, Picture4, Picture5];
   return (
-    <Router>
+    <Router basename="/welcome-life">
       <Navbar />
       <main>
         <Routes>
-          <Route path="/welcome-life/" exact element={<Home />} />
-          <Route path="/welcome-life/gallery/" exact element={<Gallery prop1={allPictures} />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery prop1={allPictures} />} />
         </Routes>
       </main>
       <Footer />
