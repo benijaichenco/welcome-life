@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -7,7 +7,7 @@ import Gallery from "./pages/Gallery";
 
 function App() {
   return (
-    <Router basename="/welcome-life">
+    <Router>
       <Navbar />
       <main>
         <Routes>

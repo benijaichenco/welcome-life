@@ -13,15 +13,11 @@ function Navbar() {
         toggleNav();
       }
     };
-
-    // Add the scroll event listener when the component mounts
     document.addEventListener("scroll", handleScroll);
-
-    // Cleanup the event listener when the component unmounts
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
-  }, [isOpen]); // Add isOpen to the dependency array to capture its latest value
+  }, [isOpen]);
 
   return (
     <>

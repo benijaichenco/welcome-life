@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/welcome-life/static/css/main.b370db7a.css",
-    "main.js": "/welcome-life/static/js/main.ff156bf8.js",
-    "static/media/image12.webp": "/welcome-life/static/media/image12.dbacee366080ef69ae82.webp",
+    "main.js": "/welcome-life/static/js/main.586082be.js",
+    "static/media/image11.webp": "/welcome-life/static/media/image11.dbacee366080ef69ae82.webp",
     "static/media/image2.webp": "/welcome-life/static/media/image2.c2c576056a710f9ca956.webp",
     "static/media/image6.webp": "/welcome-life/static/media/image6.9472cd0d84a89b92b970.webp",
-    "static/media/image9.webp": "/welcome-life/static/media/image9.7107238dc825e0a0658c.webp",
+    "static/media/image8.webp": "/welcome-life/static/media/image8.7107238dc825e0a0658c.webp",
     "static/media/image7.webp": "/welcome-life/static/media/image7.0742397af275d8748777.webp",
-    "static/media/image13.webp": "/welcome-life/static/media/image13.97f81248d9b39dcb3a90.webp",
+    "static/media/image12.webp": "/welcome-life/static/media/image12.97f81248d9b39dcb3a90.webp",
     "static/media/image1.webp": "/welcome-life/static/media/image1.f4bc42e96d6fff01c767.webp",
     "static/media/image4.webp": "/welcome-life/static/media/image4.20d3fbf786aaf7067e72.webp",
     "static/media/image3.webp": "/welcome-life/static/media/image3.62b6cec32e5acc79ac8e.webp",
     "static/media/image5.webp": "/welcome-life/static/media/image5.e11647eac4110e35dfc2.webp",
-    "static/media/image8.webp": "/welcome-life/static/media/image8.e11647eac4110e35dfc2.webp",
-    "static/media/image11.webp": "/welcome-life/static/media/image11.2ea1ef5b2240bfbe20c0.webp",
-    "static/media/image10.webp": "/welcome-life/static/media/image10.8dfe69ad7a3e5277ea36.webp",
+    "static/media/image10.webp": "/welcome-life/static/media/image10.2ea1ef5b2240bfbe20c0.webp",
+    "static/media/image9.webp": "/welcome-life/static/media/image9.8dfe69ad7a3e5277ea36.webp",
     "index.html": "/welcome-life/index.html",
     "main.b370db7a.css.map": "/welcome-life/static/css/main.b370db7a.css.map",
-    "main.ff156bf8.js.map": "/welcome-life/static/js/main.ff156bf8.js.map"
+    "main.586082be.js.map": "/welcome-life/static/js/main.586082be.js.map"
   },
   "entrypoints": [
     "static/css/main.b370db7a.css",
-    "static/js/main.ff156bf8.js"
+    "static/js/main.586082be.js"
   ]
 }
