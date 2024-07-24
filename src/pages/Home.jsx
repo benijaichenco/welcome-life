@@ -1,5 +1,5 @@
+import Image11 from "../images/image11.webp";
 import Image12 from "../images/image12.webp";
-import Image13 from "../images/image13.webp";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
           </div>
         </div>
         <div className="bottom-container">
-          <img src={Image13} alt="" />
+          <img src={Image12} alt="" />
         </div>
       </section>
       <section className="home-section-bottom">
@@ -30,7 +30,7 @@ function Home() {
           </div>
         </div>
         <div className="bottom-container">
-          <img src={Image12} alt="" />
+          <img src={Image11} alt="" />
         </div>
       </section>
     </div>

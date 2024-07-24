@@ -8,9 +8,6 @@ import Image7 from "../images/image7.webp";
 import Image8 from "../images/image8.webp";
 import Image9 from "../images/image9.webp";
 import Image10 from "../images/image10.webp";
-import Image11 from "../images/image11.webp";
-import Image12 from "../images/image12.webp";
-import Image13 from "../images/image13.webp";
 
 function Gallery() {
   const images = [
@@ -24,9 +21,6 @@ function Gallery() {
     { id: 8, src: Image8, alt: "Image 8" },
     { id: 9, src: Image9, alt: "Image 9" },
     { id: 10, src: Image10, alt: "Image 10" },
-    { id: 11, src: Image11, alt: "Image 11" },
-    { id: 12, src: Image12, alt: "Image 12" },
-    { id: 13, src: Image13, alt: "Image 13" },
   ];
 
   return (
