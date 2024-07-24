@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/welcome-life/static/css/main.0c2c652e.css",
-    "main.js": "/welcome-life/static/js/main.299b62b0.js",
-    "static/media/hands-bg.jpeg": "/welcome-life/static/media/hands-bg.fd136068ebc0a3401479.jpeg",
-    "static/media/babies.jpeg": "/welcome-life/static/media/babies.ff97240bec052e900957.jpeg",
-    "static/media/gallery3.jpeg": "/welcome-life/static/media/gallery3.354070359822482800fa.jpeg",
-    "static/media/gallery5.jpeg": "/welcome-life/static/media/gallery5.e4ad706919a0a090a052.jpeg",
-    "static/media/gallery4.jpeg": "/welcome-life/static/media/gallery4.28de569759dcc973b6dc.jpeg",
-    "static/media/gallery1.jpeg": "/welcome-life/static/media/gallery1.dd82d5819f23430ea058.jpeg",
-    "static/media/gallery2.jpeg": "/welcome-life/static/media/gallery2.79dfc1dd2d87ec3a09e6.jpeg",
+    "main.css": "/welcome-life/static/css/main.cbdd2c1f.css",
+    "main.js": "/welcome-life/static/js/main.099d7896.js",
+    "static/media/gra-fabian.webp": "/welcome-life/static/media/gra-fabian.dbacee366080ef69ae82.webp",
+    "static/media/babies.webp": "/welcome-life/static/media/babies.26304637abb9489fea4e.webp",
+    "static/media/image3.webp": "/welcome-life/static/media/image3.4c228b26ca48fa892505.webp",
+    "static/media/image5.webp": "/welcome-life/static/media/image5.97f81248d9b39dcb3a90.webp",
+    "static/media/image6.webp": "/welcome-life/static/media/image6.62b6cec32e5acc79ac8e.webp",
+    "static/media/image4.webp": "/welcome-life/static/media/image4.192107cc5ebf1deb064f.webp",
+    "static/media/image1.webp": "/welcome-life/static/media/image1.840bc57f5612827492a7.webp",
+    "static/media/image7.webp": "/welcome-life/static/media/image7.2ea1ef5b2240bfbe20c0.webp",
+    "static/media/image2.webp": "/welcome-life/static/media/image2.8208020d2f27f8311ed5.webp",
     "index.html": "/welcome-life/index.html",
-    "main.0c2c652e.css.map": "/welcome-life/static/css/main.0c2c652e.css.map",
-    "main.299b62b0.js.map": "/welcome-life/static/js/main.299b62b0.js.map"
+    "main.cbdd2c1f.css.map": "/welcome-life/static/css/main.cbdd2c1f.css.map",
+    "main.099d7896.js.map": "/welcome-life/static/js/main.099d7896.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2c652e.css",
-    "static/js/main.299b62b0.js"
+    "static/css/main.cbdd2c1f.css",
+    "static/js/main.099d7896.js"
   ]
 }
