@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Page Not Found</title>
-    <meta http-equiv="refresh" content="0; url=./" />
+    <meta http-equiv="refresh" content="0; url=/" />
     <script>
-      let path = window.location.pathname;
-      let redirectTo = "/welcome-life" + path;
-      window.location.replace(redirectTo);
+      if (!window.location.pathname.startsWith("/welcome-life")) {
+        let path = window.location.pathname;
+        let redirectTo = "/welcome-life" + path;
+        window.location.replace(redirectTo);
+      }
     </script>
   </head>
   <body>
