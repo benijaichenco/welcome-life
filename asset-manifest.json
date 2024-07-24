@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/welcome-life/static/css/main.b370db7a.css",
-    "main.js": "/welcome-life/static/js/main.586082be.js",
+    "main.js": "/welcome-life/static/js/main.a8bbe04e.js",
     "static/media/image11.webp": "/welcome-life/static/media/image11.dbacee366080ef69ae82.webp",
     "static/media/image2.webp": "/welcome-life/static/media/image2.c2c576056a710f9ca956.webp",
     "static/media/image6.webp": "/welcome-life/static/media/image6.9472cd0d84a89b92b970.webp",
@@ -16,10 +16,10 @@
     "static/media/image9.webp": "/welcome-life/static/media/image9.8dfe69ad7a3e5277ea36.webp",
     "index.html": "/welcome-life/index.html",
     "main.b370db7a.css.map": "/welcome-life/static/css/main.b370db7a.css.map",
-    "main.586082be.js.map": "/welcome-life/static/js/main.586082be.js.map"
+    "main.a8bbe04e.js.map": "/welcome-life/static/js/main.a8bbe04e.js.map"
   },
   "entrypoints": [
     "static/css/main.b370db7a.css",
-    "static/js/main.586082be.js"
+    "static/js/main.a8bbe04e.js"
   ]
 }
