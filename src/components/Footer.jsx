@@ -6,7 +6,7 @@ function Footer() {
       email: "gra1324@gmail.com",
     },
     fabian: {
-      name: "Fabian",
+      name: "Fabien",
       phone: "+972 54-480-7629",
       email: "fitussi10@gmail.com",
     },
